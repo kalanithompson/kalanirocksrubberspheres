@@ -23,7 +23,7 @@ def debugLog(s):
 
 def progressLog(p):
     if(not debug):
-        sys.stderr.write("\rProcessing... Current path length:" + str(p))
+        sys.stderr.write("\rCurrent path length:" + str(p))
     return
 
 # this function takes a pair of lists and assumes the last word in the path 
